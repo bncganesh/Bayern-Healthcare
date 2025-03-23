@@ -1,0 +1,97 @@
+/* General Page Styling */
+.homepage {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    background-color: #007bff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+
+  
+/* Hero Section */
+.hero {
+    background: #0073e6;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Featured Topics */
+.featured-topics {
+    padding: 30px;
+}
+
+.topics {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.topic-card {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.topic-card button {
+    background: #0073e6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.topic-card button:hover {
+    background: #005bb5;
+}
