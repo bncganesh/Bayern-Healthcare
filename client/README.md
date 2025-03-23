@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 ### `npm install`
 
-this will install all dependencies that required for project to run locally.
+This will install all dependencies that required for project to run locally. 
 
 ### `npm start`
 
